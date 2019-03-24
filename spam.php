@@ -1,5 +1,5 @@
 <?php
-echo "[X]G7-Spam";
+echo "[X]G7-Spam\n";
 echo "[X]TEAM : ERROR CYBER ARMY\n\n";
 echo "Nomor Target?\n ~>: ";
 $nomer = trim(fgets(STDIN));
