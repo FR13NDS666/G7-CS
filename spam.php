@@ -1,4 +1,5 @@
 <?php
+echo "G7-Spam\n\n";
 echo "TEAM : ERROR CYBER ARMY\n\n";
 echo "Nomor Target?\nInput : ";
 $nomer = trim(fgets(STDIN));
