@@ -1,6 +1,5 @@
 <?php
 clear
-echo "[X]=============================[X]\n\n";
 echo "[X]G7-Spam.                     [X]\n\n";                  
 echo "[X]TEAM : ERROR CYBER ARMY      [X]\n\n";
 echo "[X]=============================[X]\n\n";
