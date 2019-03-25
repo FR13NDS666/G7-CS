@@ -55,6 +55,6 @@ Cookie: identity=".$rand1."; browser_id=".$rand2."; _ga=GA1.2.1024758930.1531960
 	curl_setopt($ch, CURLOPT_POSTFIELDS, $ar);
 	$asw = curl_exec($ch);
 	curl_close($ch);
-	print $a.$nomer." [√]SendingSuccesed[√]\n";
+	print $a."The Number"$nomer." [√]SendingSuccesed[√]\n";
 }
 
