@@ -14,9 +14,9 @@ function send($phone){
 }
 echo "[!]#########################[!]\n";
 echo "[!] G7-Hckr                 [!]\n";
-echo "[!] TEAM ; ERROR CYBER ARMY [!]\n\n";
+echo "[!] TEAM ; ERROR CYBER ARMY [!]\n";
 echo "[!]#########################[!]\n";
-echo "[~]Nomor Target            [!]\n : ";
+echo "[~]Nomor Target             [~]\n [~]>: ";
 $nomor = trim(fgets(STDIN));
 $execute = send($nomor);
 print $execute;
