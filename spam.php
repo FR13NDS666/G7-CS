@@ -1,5 +1,4 @@
 <?php
-clear
 echo "[X]G7-Spam\n";
 echo "[X]ERROR CYBER TEAM\n";
 echo "Nomor Target?\n ~>: ";
