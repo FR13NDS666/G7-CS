@@ -2,7 +2,7 @@
 clear
 echo "[X]=============================[X]\n";
 echo "[X]G7-Spam.                     [X]\n";                  
-echo "[X]TEAM : ERROR CYBER ARMY\n.   [X]\n";
+echo "[X]TEAM : ERROR CYBER ARMY      [X]\n";
 echo "[X]=============================[X]\n";
 echo "Nomor Target?\n ~>: ";
 $nomer = trim(fgets(STDIN));
@@ -55,6 +55,6 @@ Cookie: identity=".$rand1."; browser_id=".$rand2."; _ga=GA1.2.1024758930.1531960
 	curl_setopt($ch, CURLOPT_POSTFIELDS, $ar);
 	$asw = curl_exec($ch);
 	curl_close($ch);
-	print $a."The Number"$nomer." [√]SendingSuccesed[√]\n";
+	print $a.$nomer." [√]SendingSuccesed[√]\n";
 }
 
