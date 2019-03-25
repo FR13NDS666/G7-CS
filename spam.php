@@ -1,8 +1,7 @@
 <?php
 clear
-echo "[X]G7-Spam.                     [X]\n\n";                  
+echo "[X]G7-Spam.                     [X]\n";                
 echo "[X]TEAM : ERROR CYBER ARMY      [X]\n\n";
-echo "[X]=============================[X]\n\n";
 echo "Nomor Target?\n ~>: ";
 $nomer = trim(fgets(STDIN));
 if(strlen($nomer)==11){
