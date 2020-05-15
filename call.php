@@ -12,8 +12,8 @@ function send($phone){
                 echo $asw."\n";
 }
 echo "[+]#########################[+]\n";                  
-echo "[!] G7-call                 [!]\n";
-echo "[!] TEAM ; ERROR CYBER ARMY [!]\n";
+echo "[!] KRYPTON                 [!]\n";
+echo "[!] TEAM ; FR13NDS          [!]\n";
 echo "[+]#########################[+]\n\n";
 echo "[!]Nomor\nInput : ";
 $nomor = trim(fgets(STDIN));
