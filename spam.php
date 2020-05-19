@@ -1,8 +1,8 @@
 <?php
 echo "[X]==================[X]\n";
-echo "[X] G7-Spam          [X]\n";
-echo "[X] ERROR CYBER TEAM [X]\n";
-echo "[X] MrH25 - MrFach   [X]\n";   
+echo "[X]    Spam          [X]\n";
+echo "[X] anonymous        [X]\n";
+echo "[X] FR13NDS          [X]\n";   
 echo "[X]==================[X]\n";
 echo "Nomor Target?\n ~>: ";
 $nomer = trim(fgets(STDIN));
